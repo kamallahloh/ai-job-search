@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** C#/.NET (Core, MVC, Web API, Web Forms, Razor Pages, EF), JavaScript/TypeScript (React, Next.js, Vue.js, Node.js, Express.js, Nest.js), SQL Server/PostgreSQL/Oracle/MongoDB, REST API integration, AWS (Cloud Practitioner + Solutions Architect Associate)
+**Moderate match areas:** Real-time/integration tooling (SignalR, Socket.io, OAuth2), IIS deployment, GIS domain knowledge, Delphi/Object Pascal, Agile/Scrum project delivery
+**Weak match areas:** Deep ML/data science, large-scale distributed systems, DevOps/CI-CD ownership, mobile development
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -134,6 +134,10 @@ Present the evaluation as:
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager
 ```
+
+## Calibration from Past Applications
+- Marshal Travel's "Full Stack .NET Developer - Integration-Heavy" posting (C#/ASP.NET, Vue.js, SignalR, IIS, SQL Server/EF, payment gateway integrations) led to a hire (Jan 2026) - confirmed strong-fit signal for similarly-scoped .NET integration roles.
+- Earlier applications (2024, immediately post-bootcamp) covered a very wide spread of unrelated junior roles (Java Developer, Junior Laravel Developer, Front-End Angular, Research Analyst, Junior Project Coordinator, Associate Product Operations) with no recorded outcomes. This reads as an early "wide net" phase rather than targeted signal - not used for calibration until outcome data exists for them.
 
 ## Weighting
 - Technical Skills: 30%

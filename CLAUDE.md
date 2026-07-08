@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Kamal Lahloh
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Kamal Lahloh, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +13,76 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Kamal Lahloh (legal name: Kamal Mahmoud Abdel Fattah Lahloh)
+- **Location:** Amman, Jordan (open to relocation)
+- **Languages:** Arabic (Native), English (Professional Working), Japanese (Elementary)
+- **Status:** Employed (Software Developer, Marshal Travel) - passively open to new opportunities
+- **LinkedIn headline:** "Software Developer at Marshal || MERAKI || AWS SAA-C03"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Full-Stack Web Development Bootcamp** (Oct 2023-Mar 2024) - MERAKI Academy
+  - 22-week immersive program, 400+ hours; MERN/PERN stacks, Agile/Scrum
+- **Bachelor of Engineering (BE) in Civil Engineering** (Sep 2009-Jan 2014) - The Hashemite University
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Developer** (Jan 2026 - Present) - **Marshal Travel** (Amman, Jordan)
+  - Full Stack .NET Developer on an integration-heavy enterprise platform (Portal, API, Backoffice)
+  - C#, ASP.NET MVC/Web API, Vue.js in Razor views, SignalR, IIS, SQL Server + Entity Framework
+  - Third-party API and payment gateway integrations
+- **Software Developer** (Oct 2024 - Dec 2025) - **General Computers and Electronics Co. (GCE)** (Amman, Jordan)
+  - (GIS) Geographical Information Systems Department (renamed Innovation, AI and DTS Department)
+  - TypeScript, Next.js, .NET 8; maintained legacy ASP.NET Web Forms/MVC/Razor Pages
+- **Software Developer** (Jun 2024 - Oct 2024) - **SmartSoft Technologies** (Amman, Jordan)
+  - Delphi/Object Pascal and Oracle Database for desktop ERP/PoS solutions
+- **Project Manager, Sr. Civil Engineer** (Aug 2014 - Mar 2024) - **Construction Industry** (Jordan & Saudi Arabia)
+  - ~9.5 years of project management and civil engineering prior to transitioning into software development
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** C#/.NET (Core, MVC, Web API, Web Forms, Razor Pages, EF), JavaScript/TypeScript (React, Next.js, Vue.js, Node.js, Express.js, Nest.js)
+- **Secondary:** SignalR, Socket.io, OAuth2, IIS deployment, Delphi/Object Pascal, Agile/Scrum
+- **Domain:** Full-stack web development, GIS, enterprise .NET integrations, cloud/solutions architecture (AWS)
+- **Software:** MongoDB, PostgreSQL, Oracle DB, SQL Server, Git/GitHub, Postman, Trello, Cloudinary
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **AWS Certified Cloud Practitioner (CLF-C02)** - completed Feb 14, 2026 (expires Feb 14, 2029)
+- **AWS Certified Solutions Architect - Associate (SAA-C03)** - completed May 31, 2026 (expires May 31, 2029)
+- **Full-Stack Web Development Bootcamp** - 400h+ - completed Mar 7, 2024 (MERAKI Academy)
+- **GCE Security Awareness Training**
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- None on record -->
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+<!-- None on record -->
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
+<!-- No formal assessment on record yet; inferred signals below, see 02-behavioral-profile.md -->
+- **Eager learner** - repeatedly picks up new stacks quickly (civil engineering -> MERN/PERN -> Delphi/Oracle -> .NET/GIS -> .NET integrations)
+- **Organized and detail-focused** - self-described as highly organized and deeply focused
+- **Strengths:** Comfortable both leading (SCRUM master) and working solo end-to-end
 - **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Thrives in:** International companies with well-established workflows
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Cloud/architecture work - applying AWS certifications toward solutions architecture
+- Full-stack ownership - owning features end-to-end from database to UI
+- Learning new stacks and technologies
+- Working with an international company that has well-established workflows
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Big Tech / Cloud: Amazon, AWS, Google, Microsoft
+- Jordan/MENA Tech: Estarta, ProgressSoft, Integrated Technology Group (ITG), ESKADENIA
+- Tech-enabled consumer platforms: Careem, TaxiF, Talabat
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- No growth or learning path (purely maintenance work with no exposure to new tech/skills)
+- Unstable or very early-stage companies (high layoff/instability risk)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

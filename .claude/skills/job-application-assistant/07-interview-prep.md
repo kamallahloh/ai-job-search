@@ -35,6 +35,58 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+### MetaBook - SCRUM master leadership
+**Source:** CV / LinkedIn - MetaBook project (PERN stack social media platform)
+**What happened:** Led a team project as SCRUM master, applying Agile methodology and integrating Trello, Postman, Cloudinary, Socket.io, and Google OAuth 2.0.
+**Why it matters:** Answers leadership, teamwork, and agile-process questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### K-Shop - solo end-to-end build
+**Source:** CV / LinkedIn - K-Shop project (MERN stack e-commerce)
+**What happened:** Built a full e-commerce platform solo, including Axios, .env config, CORS, bcrypt, and JWT auth.
+**Why it matters:** Answers ownership, independent-work, and full-stack-breadth questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Career change: Civil Engineering to Software Development
+**Source:** CV / LinkedIn - Construction Industry (Aug 2014-Mar 2024) to MERAKI bootcamp
+**What happened:** After ~9.5 years as a Project Manager/Sr. Civil Engineer, retrained via a 22-week bootcamp and moved into software development.
+**Why it matters:** Answers "why the career change", "biggest risk you've taken", and resilience/motivation questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### GCE - bridging legacy and modern stacks
+**Source:** CV / LinkedIn / GCE experience letter - (GIS) Geographical Information Systems / Innovation, AI and DTS Department
+**What happened:** Worked across both modern (TypeScript, Next.js, .NET 8) and legacy (ASP.NET Web Forms, MVC, Razor Pages) systems in the same role.
+**Why it matters:** Answers questions about working with legacy code, versatility, and maintaining older systems.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Marshal Travel - owning integration-heavy production systems
+**Source:** Job posting for current role (Full Stack .NET Developer - Integration-Heavy)
+**What happened:** Current role involves owning features end-to-end across Portal/API/Backoffice layers, including payment gateway integrations and third-party API debugging.
+**Why it matters:** Answers questions about production ownership, debugging under pressure, and integration work. Needs your input on specific incidents once you've been in the role longer.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

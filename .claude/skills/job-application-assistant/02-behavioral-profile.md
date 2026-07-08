@@ -4,7 +4,7 @@
 <!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+No formal behavioral assessment (PI/DISC/Myers-Briggs/StrengthsFinder) is on record yet. *[Inferred from LinkedIn About section and resume soft-skills - review before relying on this]*: Kamal presents as an adaptable, detail-focused generalist who moved from a 9+ year civil engineering/project-management career into software development, and frames that transition as a source of problem-solving and organizational strength rather than a gap.
 
 ## Core Behavioral Drives
 
@@ -16,12 +16,12 @@
 | [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Eager learner / fast ramp-up:** *[Inferred from LinkedIn About + recurring theme across past cover letters]* - repeatedly frames himself as quick to pick up new stacks (moved from civil engineering, to MERN/PERN bootcamp projects, to Delphi/Oracle, to .NET/GIS, to current .NET integration work at Marshal Travel)
+- **Highly organized, detail-focused:** *[Inferred from resume soft-skills section]* - self-described as "highly organized, deeply focused in what I do"
+- **Comfortable both leading and working solo:** *[Inferred from project history]* - served as SCRUM master on the team project (MetaBook) and built a solo end-to-end project (K-Shop)
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
+- [ENVIRONMENT_PREFERENCE_1] <!-- to be filled in via direct behavioral questions -->
 - [ENVIRONMENT_PREFERENCE_2]
 - [ENVIRONMENT_PREFERENCE_3]
 
