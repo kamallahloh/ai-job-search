@@ -2,6 +2,10 @@
 
 <!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
 
+## Company-Specific Interview Question Bank
+
+`documents/references/` holds 13 `MA_AC - Companies Interviews Questions - SHARED - *.csv` files - a shared MERAKI Academy cohort tracker of real interview questions asked at specific companies (by Kamal and cohort-mates). Check these for company-specific question prep before an interview, alongside the STAR examples below.
+
 ## STAR Format
 
 Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome).
@@ -81,6 +85,46 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 **Source:** Job posting for current role (Full Stack .NET Developer - Integration-Heavy)
 **What happened:** Current role involves owning features end-to-end across Portal/API/Backoffice layers, including payment gateway integrations and third-party API debugging.
 **Why it matters:** Answers questions about production ownership, debugging under pressure, and integration work. Needs your input on specific incidents once you've been in the role longer.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### MENAFN - declining a low offer
+**Source:** `documents/applications/MENAFN as Full Stack Developer/outcome.md`
+**What happened:** Interviewed through to a full offer for a Full Stack Developer role, then declined because the salary offered was below expectations.
+**Why it matters:** Answers negotiation, self-advocacy, and "tell me about a time you turned down an opportunity" questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### UBA - offer accepted, then fell through
+**Source:** `documents/applications/uba_backend_developer/outcome.md`
+**What happened:** Accepted a Backend Developer offer, but the company then postponed the project indefinitely with no restart date. Moved forward with the SmartSoft offer instead.
+**Why it matters:** Answers adaptability, handling uncertainty, and "how do you handle a plan falling through" questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### GoldenTik - counter-offer, chose to stay
+**Source:** `documents/applications/goldentik_software_developer/outcome.md`
+**What happened:** While employed at Marshal Travel, received and interviewed through to an offer from GoldenTik, then declined it: GoldenTik needed an immediate start with no notice-period flexibility, and Marshal Travel countered with a salary increase to retain him.
+**Why it matters:** Answers negotiation, career-decision-making, and "why did you stay with your current employer" questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Digital Pages vs. GCE - choosing between two same-day offers
+**Source:** `documents/applications/digital_pages_software_developer/outcome.md`, `documents/applications/gce_software_developer/outcome.md`
+**What happened:** Received offers from both Digital Pages and GCE (GIS dept) on the same day (2024-09-30) and had to decide quickly, choosing GCE.
+**Why it matters:** Answers decision-making under time pressure and "how do you evaluate competing options" questions.
 **S/T/A/R stub:**
 - Situation:
 - Task:

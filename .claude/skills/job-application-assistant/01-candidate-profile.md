@@ -12,7 +12,7 @@
 - **GitHub:** https://github.com/kamallahloh
 - **Languages:** Arabic (Native), English (Professional Working - British Council tuition, Intermediate 3, Feb 2016), Japanese (Elementary - JLPT N4, Nov 2016)
 - **Status:** Employed (Software Developer, Marshal Travel)
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS] <!-- to be filled in during follow-up questions -->
+- **Constraints:** None - open to relocation
 
 ## Education
 
@@ -36,7 +36,7 @@ Amman, Jordan - (GIS) Geographical Information Systems Department (renamed Innov
 - Worked hands-on with modern stack: TypeScript, Next.js, .NET 8
 - Maintained and extended legacy systems: ASP.NET Web Forms, MVC, Razor Pages
 
-### Software Developer - SmartSoft Technologies (Jun 2024 - Oct 2024)
+### Software Developer - SmartSoft Technologies (Jun 2024 - Sep 2024)
 Amman, Jordan
 - Used the Delphi dialect of Object Pascal and Oracle Database to develop desktop solutions, including ERP and PoS systems
 

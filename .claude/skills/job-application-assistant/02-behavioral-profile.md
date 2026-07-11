@@ -8,12 +8,7 @@ No formal behavioral assessment (PI/DISC/Myers-Briggs/StrengthsFinder) is on rec
 
 ## Core Behavioral Drives
 
-| Drive | Level | Meaning |
-|-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+No formal assessment (PI/DISC/Myers-Briggs/StrengthsFinder) is on record. See "Strongest Behaviors" and "How You Work Best" below for the synthesized profile from direct Q&A instead.
 
 ## Strongest Behaviors
 - **Eager learner / fast ramp-up:** *[Inferred from LinkedIn About + recurring theme across past cover letters]* - repeatedly frames himself as quick to pick up new stacks (moved from civil engineering, to MERN/PERN bootcamp projects, to Delphi/Oracle, to .NET/GIS, to current .NET integration work at Marshal Travel)
@@ -21,30 +16,27 @@ No formal behavioral assessment (PI/DISC/Myers-Briggs/StrengthsFinder) is on rec
 - **Comfortable both leading and working solo:** *[Inferred from project history]* - served as SCRUM master on the team project (MetaBook) and built a solo end-to-end project (K-Shop)
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1] <!-- to be filled in via direct behavioral questions -->
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Enterprise/international team settings, at Agile/Scrum pace and structure
+- Comfortable both leading and executing, particularly on large international teams - not attached to one mode over the other
+- Deliberate decision-making: gathers information before deciding rather than acting on instinct
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Perfectionism / preference for clean, well-designed solutions:** Drawn to well-architected, well-designed work and dislikes messy, ad-hoc solutions. Frame as strong code-quality and system-design instincts; actively working on balancing this with pragmatic delivery speed when the situation calls for it.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "Agile/Scrum", "enterprise", "international team", "system design", "clean architecture", "well-structured codebase"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "fast-paced, move fast and break things", "legacy maintenance only", "ad-hoc/unstructured process", "no code review / no design process"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- **Works well with:** Structured, well-coordinated teams with clear task organization and defined processes
+- **Doesn't work well with:** Poor coordination, unclear/disorganized task assignment, and environments stuck on old technology with no system design discipline
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lean into Agile/Scrum comfort, both leadership and execution capability, and the discipline carried over from the civil engineering/project management background
+- **CV:** Emphasize system-design-minded work and structured team environments (e.g. SCRUM master experience on MetaBook)
+- **Interviews:** Use the MetaBook SCRUM master STAR example plus the offer-decision STAR stubs (UBA, GoldenTik, Digital Pages vs. GCE) to back up "gathers info before deciding" and "leads and executes" claims
+- **Don't overstate:** Avoid implying comfort with fully unstructured/ad-hoc environments or legacy-only maintenance roles with no growth path - these are explicit friction/deal-breaker areas

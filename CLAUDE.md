@@ -18,6 +18,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Languages:** Arabic (Native), English (Professional Working), Japanese (Elementary)
 - **Status:** Employed (Software Developer, Marshal Travel) - passively open to new opportunities
 - **LinkedIn headline:** "Software Developer at Marshal || MERAKI || AWS SAA-C03"
+- **Contact:** Email kamal.lahloh@gmail.com | Phone/WhatsApp +962 777 311 150 | [LinkedIn](https://www.linkedin.com/in/kamal-lahloh/) | [GitHub](https://github.com/kamallahloh)
 
 ### Education
 <!-- List your degrees, most recent first -->
@@ -34,7 +35,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Software Developer** (Oct 2024 - Dec 2025) - **General Computers and Electronics Co. (GCE)** (Amman, Jordan)
   - (GIS) Geographical Information Systems Department (renamed Innovation, AI and DTS Department)
   - TypeScript, Next.js, .NET 8; maintained legacy ASP.NET Web Forms/MVC/Razor Pages
-- **Software Developer** (Jun 2024 - Oct 2024) - **SmartSoft Technologies** (Amman, Jordan)
+- **Software Developer** (Jun 2024 - Sep 2024) - **SmartSoft Technologies** (Amman, Jordan)
   - Delphi/Object Pascal and Oracle Database for desktop ERP/PoS solutions
 - **Project Manager, Sr. Civil Engineer** (Aug 2014 - Mar 2024) - **Construction Industry** (Jordan & Saudi Arabia)
   - ~9.5 years of project management and civil engineering prior to transitioning into software development
@@ -63,7 +64,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Eager learner** - repeatedly picks up new stacks quickly (civil engineering -> MERN/PERN -> Delphi/Oracle -> .NET/GIS -> .NET integrations)
 - **Organized and detail-focused** - self-described as highly organized and deeply focused
 - **Strengths:** Comfortable both leading (SCRUM master) and working solo end-to-end
-- **Growth areas:** [YOUR_GROWTH_AREAS]
+- **Growth areas:** Tendency toward perfectionism - drawn to clean, well-designed solutions and dislikes messy/unstructured work; actively balancing this against pragmatic delivery speed
 - **Thrives in:** International companies with well-established workflows
 
 ### What Excites You
@@ -83,6 +84,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- Hard constraints on job search -->
 - No growth or learning path (purely maintenance work with no exposure to new tech/skills)
 - Unstable or very early-stage companies (high layoff/instability risk)
+
+### Salary Expectations
+- No fixed target figure - benchmark against each company/role's own market norm (see `salary_lookup.py` and the Salary Benchmark section in `04-job-evaluation.md`) rather than a personal baseline number
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
