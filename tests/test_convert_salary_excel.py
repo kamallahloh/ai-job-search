@@ -104,6 +104,58 @@ class DetectColumnTypeTests(unittest.TestCase):
                     companies[0]["categories"]["salary"], {"index": 105.5}
                 )
 
+    def test_parse_sheet_detects_city_column_with_token_header(self):
+        # City headers are matched with the same token-based header_matches()
+        # used for the company column, not exact string equality. Real-world
+        # sheets rarely use the bare token "City" or "Kommune" alone; headers
+        # like "City Name" / "City/Kommune" must still be detected as the city
+        # column (previously silently left as city_col=None -> empty city).
+        for header in ("City", "City Name", "Kommune", "City/Kommune"):
+            with self.subTest(header=header):
+                ws = FakeWorksheet([
+                    ("Company", header, "Salary"),
+                    ("Example Corp", "Aarhus", 105.5),
+                ])
+                companies = parse_sheet(ws)
+                self.assertEqual(len(companies), 1)
+                self.assertEqual(companies[0]["city"], "Aarhus")
+
+    def test_skips_free_text_column(self):
+        # A free-text "Notes" column must not become a bogus salary category.
+        ws = FakeWorksheet([
+            ("Company", "Salary Index", "Notes"),
+            ("Example Corp", 105.5, "good"),
+        ])
+
+        companies = parse_sheet(ws)
+
+        self.assertIn("salary_index", companies[0]["categories"])
+        self.assertNotIn("notes", companies[0]["categories"])
+
+    def test_skips_numeric_identifier_column(self):
+        # A numeric "Id" column (employee id) must not be treated as a salary index.
+        ws = FakeWorksheet([
+            ("Company", "Salary Index", "Id"),
+            ("Example Corp", 105.5, 7),
+        ])
+
+        companies = parse_sheet(ws)
+
+        self.assertIn("salary_index", companies[0]["categories"])
+        self.assertNotIn("id", companies[0]["categories"])
+
+    def test_keeps_numeric_salary_column(self):
+        # A genuine numeric salary column still produces a salary category.
+        ws = FakeWorksheet([
+            ("Company", "Salary Index"),
+            ("Example Corp", 105.5),
+        ])
+
+        companies = parse_sheet(ws)
+
+        self.assertIn("salary_index", companies[0]["categories"])
+        self.assertEqual(companies[0]["categories"]["salary_index"], {"index": 105.5})
+
 
 if __name__ == "__main__":
     unittest.main()
