@@ -108,3 +108,9 @@ The cover letter is **not a CV repetition**. It should be forward-looking:
 - Default to the language of the job posting
 - Cover letters in the posting's language should feel natural, not translated
 - Slightly warmer, more personal tone may be acceptable in some languages
+
+## Patterns Observed in Past Applications
+- Header block: Name | Target Role title, centered, with a contact line (phone | email) directly beneath
+- Salutation varied by context: "Dear Recruiter,", "Dear Hiring Manager,", "Dear [Company] Team,", or a two-line "Hiring Manager / At [Company]," address block
+- Sign-off: "Sincerely," or "Best regards," followed by name
+- Note: the body language in these past letters (e.g. "I am confident that", "eager to learn", "passion for") is exactly what the Critical Rules above already ban. These were early bootcamp-era applications and should not be used as a language model - only the structural header/salutation pattern above is carried forward.

@@ -10,66 +10,82 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+There is no built-in scraper CLI for Jordan/MENA job portals (the framework's `.agents/skills/` tools are Denmark-specific: Jobindex, Jobbank, Jobdanmark, Jobnet). Use these instead:
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Primary (LinkedIn + Google site-search):
+- **linkedin.com/jobs** - filter by Jordan / Amman / Remote, and by target companies
+- Google `site:` searches against LinkedIn jobs and target company career pages
+
+Secondary (MENA job boards):
+- **bayt.com** - largest MENA job board
+- **wuzzuf.net** - popular in Egypt/Levant, strong tech listings
+- **akhtaboot.com** - Jordan-focused job board
+- **tanqeeb.com** - MENA-wide job board
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Kamal is open to relocation, so location terms are optional per query - use them to narrow to Amman/Jordan when useful, or drop them for remote/international roles.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Full Stack / .NET Developer
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Strongest and most desired career direction - matches current role at Marshal Travel.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Full Stack Developer" ".NET" Jordan OR remote
+site:linkedin.com/jobs "ASP.NET" developer Amman OR remote
+site:bayt.com "Full Stack .NET Developer"
+site:wuzzuf.net ".NET Developer"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Broader Full-Stack / JavaScript Ecosystem
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Kamal's skills span React/Next.js/Node.js/Vue.js as well as .NET - keep this net wide rather than narrowing to .NET only.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Full Stack Developer" React OR "Next.js" OR Vue Jordan OR remote
+site:linkedin.com/jobs "Software Developer" Node.js Amman OR remote
+site:bayt.com "Full Stack Developer"
+site:akhtaboot.com "Software Developer"
 ```
+
+### Priority 3: Cloud / Solutions Architecture
+
+Adjacent direction Kamal wants to grow into, backed by AWS Solutions Architect - Associate and Cloud Practitioner certifications.
+
+```
+site:linkedin.com/jobs "Solutions Architect" AWS Jordan OR remote
+site:linkedin.com/jobs "Cloud Engineer" AWS Amman OR remote
+site:tanqeeb.com "Solutions Architect"
+```
+
+### Priority 4: Target Companies (direct monitoring)
+
+Check career pages and LinkedIn company pages directly for these:
+
+```
+site:linkedin.com/jobs "Software Developer" (Amazon OR AWS OR Google OR Microsoft)
+site:linkedin.com/jobs "Software Developer" (Estarta OR ProgressSoft OR "Integrated Technology Group" OR ESKADENIA)
+site:linkedin.com/jobs "Software Developer" (Careem OR TaxiF OR Talabat)
+```
+
+Target companies list:
+- **Big Tech / Cloud:** Amazon, AWS, Google, Microsoft
+- **Jordan/MENA Tech:** Estarta, ProgressSoft, Integrated Technology Group (ITG), ESKADENIA
+- **Tech-enabled consumer platforms:** Careem, TaxiF, Talabat
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Kamal is **open to relocation**, so location is a soft filter, not a hard pass/fail:
+- **Ideal:** Amman, Jordan (no relocation needed) or fully remote
+- **Acceptable:** Other MENA/Gulf hubs with relocation support (Dubai, Riyadh, Doha, Cairo)
+- **Acceptable:** International roles (US/EU) that sponsor relocation or hire fully remote
+- **Borderline:** International roles requiring self-funded relocation - flag for discussion
+- **Too far:** none by distance - the real filter is relocation support and company stability, not geography
+
+## Deal-Breakers (screen out during evaluation)
+
+- No growth or learning path - purely maintenance work with no exposure to new tech/skills
+- Unstable or very early-stage companies (high layoff/instability risk)
 
 ## Date Filter
 

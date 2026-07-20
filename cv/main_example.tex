@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Kamal Lahloh
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Kamal Lahloh - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Kamal}{Lahloh}
+\address{Amman, Jordan}{}{}
+\phone[mobile]{+962 777 3 111 50}
+\email{kamal.lahloh@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/kamal-lahloh/}{LinkedIn}, \href{https://github.com/kamallahloh}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Full Stack Developer with production experience across .NET (Core, MVC, Web API, Entity Framework), the JavaScript ecosystem (React, Next.js, Node.js, Vue.js), and AWS cloud (Certified Solutions Architect - Associate, Certified Cloud Practitioner). Currently delivers integration-heavy enterprise systems - third-party APIs, payment gateways, real-time features - end-to-end from database to UI. Brings nearly a decade of project management and civil engineering experience into a disciplined, detail-focused approach to software delivery.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{.NET Development}: C\#, ASP.NET Core/MVC/Web API, ASP.NET Web Forms, Razor Pages, Entity Framework, SQL Server
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{JavaScript/TypeScript}: React.js, Next.js, Vue.js, Node.js, Express.js, Nest.js, Redux.js
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Cloud \& Architecture}: AWS Certified Solutions Architect - Associate, AWS Certified Cloud Practitioner
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Integration \& Real-Time}: RESTful APIs, third-party/payment gateway integrations, SignalR, Socket.io, OAuth2, IIS deployment
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Databases}: PostgreSQL, MongoDB, Oracle DB, SQL Server
 
 \end{itemize}
 
@@ -77,31 +76,38 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2026--Present}{Software Developer}{Marshal Travel}{Amman, Jordan}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Own features end-to-end on an integration-heavy enterprise platform spanning Portal, API, and Backoffice layers
+    \item Build and debug integrations with external APIs and payment gateway providers
+    \item Develop interactive frontend components with Vue.js within ASP.NET Razor views, and real-time features with SignalR
+    \item Deploy and configure applications on IIS, including environment and virtual directory setup
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2024--2025}{Software Developer}{General Computers and Electronics Co. (GCE)}{Amman, Jordan}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Worked in the (GIS) Geographical Information Systems Department (renamed Innovation, AI and DTS Department)
+    \item Delivered features using TypeScript, Next.js, and .NET 8
+    \item Maintained and extended legacy systems built on ASP.NET Web Forms, MVC, and Razor Pages
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2024--2024}{Software Developer}{SmartSoft Technologies}{Amman, Jordan}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Developed desktop ERP and PoS solutions using the Delphi dialect of Object Pascal and Oracle Database
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\item{\cventry{2014--2024}{Project Manager, Sr. Civil Engineer}{Construction Industry}{Jordan \& Saudi Arabia}{}{\vspace{1pt}
+\begin{itemize}
+    \item Nearly a decade of project management and civil engineering experience prior to transitioning into software development
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +120,13 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2023--2024}{Full-Stack Web Development Bootcamp}{MERAKI Academy}{Amman, Jordan}{}{\vspace{1pt}
+22-week immersive program, 400+ hours of coding and project work. MERN/PERN stacks, Agile/Scrum.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2009--2014}{Bachelor of Engineering (BE) in Civil Engineering}{The Hashemite University}{Jordan}{}{\vspace{1pt}
 }}
 
 \end{itemize}
@@ -133,27 +138,19 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Arabic (native), English (professional working), Japanese (elementary -- JLPT N4).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{AWS Certified Solutions Architect -- Associate (SAA-C03)} -- 2026.}
+\item{\textbf{AWS Certified Cloud Practitioner (CLF-C02)} -- 2026.}
+\item{\textbf{Full-Stack Web Development Bootcamp} -- MERAKI Academy, 2024.}
 \end{itemize}
 
 % ============================================================

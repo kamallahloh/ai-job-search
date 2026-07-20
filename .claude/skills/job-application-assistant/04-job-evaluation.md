@@ -20,9 +20,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** C#/.NET (Core, MVC, Web API, Web Forms, Razor Pages, EF), JavaScript/TypeScript (React, Next.js, Vue.js, Node.js, Express.js, Nest.js), SQL Server/PostgreSQL/Oracle/MongoDB, REST API integration, AWS (Cloud Practitioner + Solutions Architect Associate)
+**Moderate match areas:** Real-time/integration tooling (SignalR, Socket.io, OAuth2), IIS deployment, GIS domain knowledge, Delphi/Object Pascal, Agile/Scrum project delivery
+**Weak match areas:** Deep ML/data science, large-scale distributed systems, DevOps/CI-CD ownership, mobile development
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -34,9 +34,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Enterprise .NET integration development (Marshal Travel); full-stack ownership across .NET/JS ecosystems
+**Moderate:** Legacy-to-modern stack maintenance and GIS domain work (GCE); desktop ERP/PoS development (SmartSoft); cloud/solutions architecture (AWS-certified, not yet applied on the job)
+**Entry-level:** Pure cloud/DevOps engineering roles (certified but no hands-on production experience yet)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -67,19 +67,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Apply AWS certifications (Cloud Practitioner, Solutions Architect - Associate) toward cloud/solutions architecture work
+- Own full-stack features end-to-end, from database to UI
+- Keep learning new stacks and technologies, ideally at an international company with well-established workflows
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: cloud/architecture work, full-stack ownership, learning new stacks and technologies
+- Tasks that drain: purely maintenance work with no exposure to new tech/skills
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed (Software Developer, Marshal Travel) - passively open, not job-search-urgent, can be selective
+- **Flexibility**: Open to relocation; no hard commute constraint
+- **Professional development**: Actively pursuing AWS certifications; prioritizes roles with a genuine learning/growth path over stable-but-static ones
 
 ### 6. Salary Benchmark (Optional)
 
@@ -138,6 +138,13 @@ Present the evaluation as:
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager
 ```
+
+## Calibration from Past Applications
+- Marshal Travel's "Full Stack .NET Developer - Integration-Heavy" posting (C#/ASP.NET, Vue.js, SignalR, IIS, SQL Server/EF, payment gateway integrations) led to a hire (Jan 2026) - confirmed strong-fit signal for similarly-scoped .NET integration roles.
+- SmartSoft (Software Developer, Delphi/Object Pascal + Oracle DB) and GCE (Software Developer, GIS/legacy-and-modern-stack) both led to hires in 2024 - confirms generalist "Software Developer" postings convert well even when the stack is unfamiliar going in (Delphi, legacy ASP.NET Web Forms), as long as the role offers genuine skill growth.
+- MENAFN (Full Stack Developer) and UBA (Backend Developer) both reached full offer stage in May 2024 - confirmed strong-fit signal for full-stack/backend developer postings specifically. Both were declined for reasons unrelated to fit (compensation, and the role's project being postponed), not skill gaps.
+- GoldenTik (Software Developer, 2026) reached offer stage while already employed - confirms the current .NET/full-stack profile remains competitive in the market well past the bootcamp era, not just as a fresh graduate.
+- Earlier 2024 applications covering a very wide spread of unrelated junior roles (Java Developer, Junior Laravel Developer, Front-End Angular, Research Analyst, Junior Project Coordinator, Associate Product Operations) still have no recorded outcomes and remain excluded from calibration. The wide-net phase produced real signal specifically in Full Stack/Backend/Software Developer postings (5 of 6 tracked outcomes above), not in the scattered adjacent-role applications.
 
 ## Weighting
 - Technical Skills: 30%

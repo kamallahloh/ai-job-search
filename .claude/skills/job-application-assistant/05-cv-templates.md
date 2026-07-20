@@ -109,12 +109,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For .NET / full-stack integration roles:**
+> Full Stack .NET Developer with hands-on experience delivering integration-heavy enterprise platforms - from database and API layer through to frontend UI. Comfortable owning third-party API and payment gateway integrations, real-time features (SignalR), and IIS deployment. AWS Certified Solutions Architect - Associate and Cloud Practitioner. Brings a background in project management and civil engineering that translates into disciplined, detail-focused delivery.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For broader full-stack / JavaScript-ecosystem roles:**
+> Full Stack Developer with production experience across .NET, React/Next.js, Node.js, and Vue.js, plus AWS cloud certifications (Solutions Architect - Associate, Cloud Practitioner). Moves quickly across stacks - from MERN/PERN bootcamp projects to enterprise .NET systems - and is looking for an international team with well-established workflows to keep building full-stack ownership and cloud/architecture skills.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
